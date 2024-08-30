@@ -38,6 +38,7 @@
         function addLanguageToFormURL() {
             // Récupérer la langue depuis l'URL du site externe
             const urlParams = new URLSearchParams(window.location.search);
+            alert(urlParams)
             const decodedUrl = decodeURIComponent(urlParams);
             // Créer un objet URLSearchParams à partir de la chaîne décodée
             const params = new URLSearchParams(decodedUrl.split('?')[1]);
@@ -71,3 +72,6 @@
     </form>
 </body>
 </html>
+
+
+
