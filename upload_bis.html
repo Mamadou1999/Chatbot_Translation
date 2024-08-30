@@ -44,7 +44,7 @@
             const params = new URLSearchParams(decodedUrl.split('?')[1]);
 
             // Extraire la valeur associée à 'lang'
-            const lang = params.get('lang');
+            const lang = urlParams.get('lang');
             alert(lang)
             
             // Ajouter dynamiquement la langue à l'URL d'action du formulaire
